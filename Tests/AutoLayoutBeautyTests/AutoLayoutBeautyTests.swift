@@ -21,7 +21,7 @@ final class AutoLayoutBeautyTests: XCTestCase {
                       .trailing(view.trailingAnchor),
                       .bottom(view.bottomAnchor))
 
-    XCTAssertEqual(label.constraints.count, 4)
+    XCTAssertEqual(view.constraints.count, 4)
   }
 
   static var allTests = [
